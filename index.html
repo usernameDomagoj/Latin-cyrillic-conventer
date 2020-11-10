@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latin - cyrillic conventer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <textarea class="glag" width="100%" height="100%" name="latin_text" wrap="logical" rows="10" cols="40" placeholder="latin" autofocus></textarea>
+        <textarea class="cyr" width="100%" height="100%" name="cyrillic_text" wrap="logical" rows="10" cols="40" placeholder="cyrillic" disabled></textarea>
+        <div class="buttons">
+            <button class="alphabet" data-title="press shift to get uppercase">alphabet</button>
+            <button class="clear">clear</button>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
