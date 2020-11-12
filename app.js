@@ -60,3 +60,4 @@ clearButton.addEventListener('click', () => {
 alphabetButton.addEventListener('click', (e) => {
 	alphabet(e);
 });
+
